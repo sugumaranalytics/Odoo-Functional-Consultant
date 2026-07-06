@@ -1,0 +1,146 @@
+30-Day Goal
+✅ Module Knowledge
+CRM
+Sales
+Purchase
+Inventory
+Contacts
+Accounting
+HR
+Employees
+Recruitment
+Attendance
+Expenses
+Manufacturing (MRP)
+Project
+Helpdesk
+Quality
+Maintenance
+POS
+Website
+eCommerce
+✅ Odoo Configuration
+Company setup
+Multi-company
+Users
+Groups
+Access rights
+Products
+Warehouses
+Taxes
+Units of Measure
+Currencies
+Workflow configuration
+✅ Requirement Gathering
+Client interviews
+Business requirements
+GAP analysis
+Requirement documents
+✅ Business Analysis
+Business process mapping
+As-Is process
+To-Be process
+Workflow diagrams
+ERP solution design
+✅ Documentation
+BRD (Business Requirement Document)
+FRD (Functional Requirement Document)
+User Manual
+Test Cases
+Training Materials
+✅ UAT (User Acceptance Testing)
+Sales testing
+Purchase testing
+Inventory testing
+Accounting testing
+Bug reporting
+Sign-off process
+✅ User Training
+Training end users
+Demonstrating modules
+Preparing training guides
+Answering user questions
+✅ Reporting
+Sales Reports
+Purchase Reports
+Inventory Reports
+Customer Reports
+Vendor Reports
+Profit & Loss
+Balance Sheet
+Dashboard interpretation
+✅ Basic Technical Understanding
+Python basics
+PostgreSQL basics
+XML basics
+Odoo Models
+Odoo Views
+Odoo ORM concepts
+
+You won't become a developer yet, but you'll understand enough to communicate effectively with technical teams.
+
+What you'll have on GitHub after 30 days
+
+Your Odoo-Functional-Consultant repository will contain something like:
+
+Day 1
+Day 2
+...
+Day 30
+
+Case Studies
+├── Apartment ERP
+├── Restaurant ERP
+├── Textile ERP
+├── Hospital ERP
+├── School ERP
+
+Business Documents
+├── BRD
+├── FRD
+├── UAT
+├── User Manuals
+├── Training Materials
+
+Interview Questions
+
+Assignments
+
+Professional Notes
+
+Business Flow Diagrams
+Then, the next 30 days
+
+We'll move to your Odoo-ERP-CRM-Technical-Developer-Course repository and learn:
+
+Custom Modules
+Python Development
+XML Views
+ORM
+Security
+Reports
+APIs
+Real-world customization
+End Result (60 Days)
+
+At the end of both courses, you'll have two complementary skill sets:
+
+Functional Consultant
+Understands business processes
+Configures Odoo
+Gathers requirements
+Trains users
+Creates documentation
+Leads ERP implementations
+Technical Developer
+Customizes Odoo
+Develops modules
+Creates reports
+Integrates APIs
+Extends Odoo with Python and XML
+
+This combination is what many companies look for in an Odoo Functional + Technical Consultant, 
+and it aligns well with your MBA, business analysis experience, and AI/Python background. 
+It will also give you two well-organized GitHub repositories that demonstrate both business and technical expertise.
+
+====
