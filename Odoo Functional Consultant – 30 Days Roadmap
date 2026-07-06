@@ -1,0 +1,34 @@
+Odoo Functional Consultant – 30 Days Roadmap
+
+| Day     | Topic                                            | Outcome                                    |
+| ------- | ------------------------------------------------ | ------------------------------------------ |
+| ✅ Day 1 | Introduction to ERP & Odoo Functional Consultant | ERP fundamentals, consultant role          |
+| ✅ Day 2 | Odoo Interface & Navigation                      | Dashboard, menus, views, search, filters   |
+| Day 3   | Company Setup & Multi-Company Configuration      | Create companies, currencies, localization |
+| Day 4   | Users, Roles & Access Rights                     | Users, Groups, Permissions                 |
+| Day 5   | Contacts Module                                  | Customers, Vendors, Contact Management     |
+| Day 6   | CRM Introduction                                 | Leads, Opportunities, Pipeline             |
+| Day 7   | Lead Management                                  | Lead lifecycle, qualification              |
+| Day 8   | Opportunity Management                           | Sales pipeline, probability, stages        |
+| Day 9   | Sales Module Overview                            | Quotations, Sales Orders                   |
+| Day 10  | Quotation Management                             | Create and manage quotations               |
+| Day 11  | Sales Orders & Delivery                          | Order confirmation, delivery flow          |
+| Day 12  | Product Management                               | Products, Categories, Pricing              |
+| Day 13  | Purchase Module                                  | Vendors, RFQ, Purchase Orders              |
+| Day 14  | Purchase Workflow                                | Purchase approval process                  |
+| Day 15  | Inventory Basics                                 | Warehouses, Stock Moves                    |
+| Day 16  | Inventory Operations                             | Receipts, Delivery Orders, Transfers       |
+| Day 17  | Accounting Basics                                | Journals, Customers, Vendors               |
+| Day 18  | Customer Invoices & Payments                     | Invoice workflow                           |
+| Day 19  | Vendor Bills & Payments                          | Purchase accounting                        |
+| Day 20  | Employees & HR                                   | Employee records, departments              |
+| Day 21  | Recruitment & Attendance                         | Hiring process, attendance tracking        |
+| Day 22  | Expenses & Payroll Overview                      | Expense claims, payroll concepts           |
+| Day 23  | Manufacturing (MRP)                              | BOM, Work Orders, Production               |
+| Day 24  | Project & Helpdesk                               | Projects, Tasks, Support Tickets           |
+| Day 25  | Website, eCommerce & POS                         | Online business modules                    |
+| Day 26  | Reports & Dashboards                             | Business reports, Pivot, Graph             |
+| Day 27  | Requirement Gathering                            | Client meetings, questionnaires            |
+| Day 28  | Business Analysis & Documentation                | BRD, FRD, Workflow diagrams                |
+| Day 29  | UAT, Training & Go-Live                          | Testing, User Training, Deployment         |
+| Day 30  | Complete ERP Implementation Case Study           | End-to-end implementation project          |
