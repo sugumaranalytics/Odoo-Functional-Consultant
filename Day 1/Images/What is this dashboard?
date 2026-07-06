@@ -1,0 +1,414 @@
+What is this dashboard?
+======================
+
+This is the Odoo Apps Dashboard.
+
+It displays all the business applications (modules) available in Odoo.
+
+Each app is designed to manage a specific department or business process.
+
+Understanding Each Module
+=================
+
+💬 Discuss
+
+Purpose:
+Internal communication.
+
+Used by:
+
+All employees
+
+Example:
+
+Team chat
+Notifications
+Internal messages
+=========
+
+📅 Calendar
+
+Purpose:
+Manage meetings and schedules.
+
+Used by:
+
+Managers
+Sales team
+HR
+
+Example:
+
+Customer meetings
+Employee meetings
+Interviews
+===========
+
+👥 Contacts
+
+Purpose:
+Store customer and supplier details.
+
+Stores:
+
+Name
+Address
+Phone
+Email
+GST Number
+=========
+
+🤝 CRM
+
+CRM = Customer Relationship Management
+
+Used to manage:
+
+Leads
+Opportunities
+Customers
+
+Example
+
+Lead
+
+↓
+
+Opportunity
+
+↓
+
+Quotation
+
+↓
+
+Customer
+
+====
+
+📈 Sales
+
+Used to manage
+
+Quotations
+Sales Orders
+Customer Orders
+Invoices
+
+Example
+
+Customer wants
+
+10 Laptops
+
+↓
+
+Quotation
+
+↓
+
+Sales Order
+
+↓
+
+Invoice
+
+=====
+🧾 Accounting
+
+Used for
+
+Invoices
+Payments
+Taxes
+Profit & Loss
+Balance Sheet
+
+Mostly used by the Finance Department.
+
+=======
+
+🛒 Purchase
+
+Used to
+
+Buy products from suppliers.
+
+Example
+
+Need
+
+100 Rice Bags
+
+↓
+
+Purchase Order
+
+↓
+
+Supplier
+
+↓
+
+Receive Goods
+
+=====
+
+📦 Inventory
+
+Tracks
+
+Stock
+Warehouse
+Product Quantity
+Product Movement
+
+Example
+
+Current Stock
+
+Rice = 120 Bags
+
+Sugar = 50 Bags
+
+Oil = 35 Bottles
+
+=====
+
+🏭 Manufacturing
+
+Used by factories.
+
+Example
+
+Raw Materials
+
+↓
+
+Production
+
+↓
+
+Finished Product
+
+=====
+
+🛍 Point of Sale (POS)
+
+Used in
+
+Supermarkets
+Restaurants
+Retail Shops
+
+Example
+
+Customer
+
+↓
+
+Barcode Scan
+
+↓
+
+Bill
+
+↓
+
+Payment
+
+=====
+
+👨‍💼 Employees
+
+Stores
+
+Employee details
+Department
+Designation
+Joining Date
+
+=====
+
+👥 Recruitment
+
+HR uses this for
+
+Job openings
+Interview scheduling
+Hiring
+
+=====
+
+⏰ Attendance
+
+Tracks
+
+Check In
+Check Out
+Working Hours
+
+======
+
+💰 Expenses
+
+Employees submit
+
+Travel expenses
+Food bills
+Hotel bills
+
+Manager approves them.
+
+======
+
+⭐ Project
+
+Manage
+
+Tasks
+Deadlines
+Teams
+
+
+=====
+
+🎧 Helpdesk
+
+Customer Support
+
+Example
+
+Customer raises
+
+Ticket
+
+↓
+
+Support Team
+
+↓
+
+Resolved
+
+=====
+
+🔧 Maintenance
+
+Manage
+
+Machine maintenance
+
+Example
+
+Machine Service
+
+↓
+
+Repair
+
+↓
+
+Maintenance Schedule
+
+=====
+
+🌐 Website
+
+Create company website.
+
+====
+
+🛒 eCommerce
+
+Online Store
+
+Sell products online.
+
+=====
+
+📄 Documents
+
+Manage
+
+PDF
+Invoice
+Contracts
+
+=====
+
+📢 Marketing Automation
+
+Send
+
+Emails
+Campaigns
+Promotions
+
+=====
+
+⚙ Settings
+
+Configure Odoo
+
+Examples
+
+Company
+Users
+Taxes
+Currency
+Warehouse
+
+======
+
+What Should a Functional Consultant Understand?
+
+Instead of memorizing the icons, understand which department uses which module.
+
+| Department       | Odoo Module                                  |
+| ---------------- | -------------------------------------------- |
+| Sales            | CRM, Sales                                   |
+| Purchase         | Purchase                                     |
+| Warehouse        | Inventory                                    |
+| Finance          | Accounting                                   |
+| HR               | Employees, Recruitment, Attendance, Expenses |
+| Factory          | Manufacturing, Quality, Maintenance          |
+| Customer Support | Helpdesk                                     |
+| Marketing        | Marketing Automation                         |
+| Website Team     | Website, eCommerce                           |
+| Administration   | Contacts, Calendar, Settings                 |
+
+
+=====
+
+The Complete Business Flow
+
+Lead (CRM)
+      │
+      ▼
+Quotation (Sales)
+      │
+      ▼
+Sales Order
+      │
+      ▼
+Inventory Check
+      │
+      ▼
+Delivery
+      │
+      ▼
+Invoice (Accounting)
+      │
+      ▼
+Payment
+
+=====
+
+Odoo is not a single application; it is a collection of integrated business applications.
+Each icon represents a business function or department.
+Different departments work in their own modules, but all data is stored in one centralized database.
+As an Odoo Functional Consultant, your role is to understand the client's business, 
+identify which modules they need, configure those modules, and ensure they work together to support the company's processes.
+
+=====
