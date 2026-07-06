@@ -2,8 +2,8 @@ Odoo Functional Consultant – 30 Days Roadmap
 
 | Day     | Topic                                            | Outcome                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------ |
-| ✅ Day 1 | Introduction to ERP & Odoo Functional Consultant | ERP fundamentals, consultant role          |
-| ✅ Day 2 | Odoo Interface & Navigation                      | Dashboard, menus, views, search, filters   |
+| Day 1   | Introduction to ERP & Odoo Functional Consultant | ERP fundamentals, consultant role          |
+| Day 2   | Odoo Interface & Navigation                      | Dashboard, menus, views, search, filters   |
 | Day 3   | Company Setup & Multi-Company Configuration      | Create companies, currencies, localization |
 | Day 4   | Users, Roles & Access Rights                     | Users, Groups, Permissions                 |
 | Day 5   | Contacts Module                                  | Customers, Vendors, Contact Management     |
