@@ -1,0 +1,245 @@
+Learning Objectives
+
+By the end of Day 4, you will be able to:
+
+Understand Users in Odoo
+Create a New User
+Configure User Information
+Understand User Roles
+Manage Access Rights
+Understand Security Groups
+Assign Users to Companies
+Configure User Permissions
+Understand Record Rules
+Follow Security Best Practices
+What is a User?
+
+A User is a person who can log in to Odoo and perform business operations based on the permissions assigned to them.
+
+Examples:
+
+Administrator
+Sales Manager
+Salesperson
+Accountant
+Inventory Manager
+HR Officer
+
+Each user has a unique login account.
+
+User Information
+
+Each user profile contains important information.
+
+Examples:
+
+Name
+Email Address
+Login Username
+Password
+Company
+Language
+Time Zone
+User Photo
+Job Position
+
+This information helps identify users and personalize their Odoo experience.
+
+Creating a New User
+
+Navigation:
+
+Settings
+
+↓
+
+Users & Companies
+
+↓
+
+Users
+
+↓
+
+New
+
+Enter:
+
+Name
+Email
+Login
+Company
+Language
+Time Zone
+
+Click Save.
+
+The new user can now log in to Odoo.
+
+What are User Roles?
+
+A Role defines what a user is allowed to do inside Odoo.
+
+Common roles include:
+
+Sales User
+Sales Manager
+Purchase User
+Inventory User
+Accountant
+HR Manager
+Administrator
+
+Each role grants different permissions.
+
+Access Rights
+
+Access Rights determine what actions a user can perform.
+
+Permissions include:
+
+Create
+Read
+Write (Edit)
+Delete
+
+Example:
+
+Salesperson
+
+Create Quotations
+Edit Own Quotations
+View Customers
+
+Sales Manager
+
+Manage All Sales Orders
+Approve Quotations
+View Reports
+Security Groups
+
+Security Groups are collections of permissions assigned to users.
+
+Examples:
+
+Sales
+Inventory
+Accounting
+Purchase
+Human Resources
+
+A user can belong to one or more groups depending on their job responsibilities.
+
+Assigning Users to Companies
+
+Users can be assigned to one or multiple companies.
+
+Example:
+
+Sales Manager
+
+Allowed Companies:
+
+ABC Supermarket
+ABC Textile Store
+
+Default Company:
+
+ABC Supermarket
+
+This ensures users work only within authorized companies.
+
+Record Rules
+
+Record Rules control which records a user can access.
+
+Example:
+
+Salesperson
+
+Can view only their own quotations.
+
+Sales Manager
+
+Can view all quotations created by the sales team.
+
+This protects sensitive business information.
+
+User Permission Example
+Salesperson
+
+Can:
+
+Create Quotations
+View Own Customers
+Update Own Sales Orders
+
+Cannot:
+
+Delete Sales Orders
+Change User Permissions
+Access Accounting
+Sales Manager
+
+Can:
+
+Manage Sales Team
+Approve Quotations
+View Sales Reports
+Access All Sales Orders
+Administrator
+
+Can:
+
+Create Users
+Assign Roles
+Configure Settings
+Install Applications
+Manage All Modules
+
+Administrators have complete control over the Odoo system.
+
+Benefits of Proper Access Rights
+Protects business data
+Prevents unauthorized access
+Improves security
+Reduces user errors
+Supports company policies
+Ensures compliance
+Best Practices
+Create separate login accounts for every employee.
+Assign only the permissions required for each role.
+Review user access regularly.
+Remove inactive users.
+Use strong passwords.
+Restrict Administrator access to authorized personnel only.
+Functional Consultant Responsibility
+
+An Odoo Functional Consultant should know how to:
+
+Create users
+Configure user profiles
+Assign security groups
+Manage access rights
+Configure company access
+Test user permissions
+Train employees on their roles and responsibilities
+Day 4 Summary
+
+Today I learned about Users, Roles & Access Rights in Odoo.
+
+I learned how to:
+
+Create users
+Configure user information
+Assign roles
+Manage access rights
+Configure security groups
+Assign companies
+Control record access
+Apply security best practices
+
+Proper user management ensures that employees can access only the information 
+and features required for their job, making the Odoo system secure, organized, and efficient.
+
+====
