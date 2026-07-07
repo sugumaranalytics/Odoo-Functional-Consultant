@@ -169,6 +169,361 @@ Company-specific settings help localize operations for different countries or re
 
 ====
 
+Module 1: What is a Company in Odoo? (Detailed Explanation)
+🎯 Module Objective
+
+In this module, you will learn what a Company is in Odoo, why it is required, and how Odoo uses company information in daily business operations.
+
+1. What is a Company?
+
+A Company in Odoo is a legal business organization that uses Odoo to manage its business processes.
+
+Think of a company as the owner of all business activities inside Odoo.
+
+For example, if your business name is:
+
+Ravinder Technologies Pvt Ltd
+
+then all your business transactions—such as sales, purchases, inventory, accounting, and employees—belong to this company.
+
+Real-World Example
+
+Imagine you start a software company called Ravinder Technologies Pvt Ltd.
+
+Your company:
+
+Develops software applications
+Sells software products
+Purchases computers and servers
+Pays employee salaries
+Pays GST to the government
+Generates invoices for customers
+
+Instead of managing all these tasks manually, you use Odoo ERP.
+
+Here, Ravinder Technologies Pvt Ltd becomes your Company in Odoo.
+
+2. Why Does Odoo Need Company Information?
+
+Every business document created in Odoo needs company details.
+
+For example, when you create:
+
+Sales Quotation
+Sales Order
+Customer Invoice
+Purchase Order
+Delivery Slip
+Accounting Report
+
+Odoo automatically prints your company information on these documents.
+
+Example Invoice
+-----------------------------------------
+Ravinder Technologies Pvt Ltd
+No.125, OMR Road
+Chennai - 600096
+Tamil Nadu, India
+
+Invoice No : INV00015
+Customer : ABC Solutions
+Date : 15-07-2026
+
+Amount : ₹45,000
+GST : ₹8,100
+
+Total : ₹53,100
+-----------------------------------------
+
+Without company information, the invoice would not contain your business identity.
+
+3. What Information Does a Company Store?
+
+Every company stores basic business information.
+
+Module 1: What is a Company in Odoo? (Detailed Explanation)
+🎯 Module Objective
+
+In this module, you will learn what a Company is in Odoo, why it is required, and how Odoo uses company information in daily business operations.
+
+1. What is a Company?
+
+A Company in Odoo is a legal business organization that uses Odoo to manage its business processes.
+
+Think of a company as the owner of all business activities inside Odoo.
+
+For example, if your business name is:
+
+Ravinder Technologies Pvt Ltd
+
+then all your business transactions—such as sales, purchases, inventory, accounting, and employees—belong to this company.
+
+Real-World Example
+
+Imagine you start a software company called Ravinder Technologies Pvt Ltd.
+
+Your company:
+
+Develops software applications
+Sells software products
+Purchases computers and servers
+Pays employee salaries
+Pays GST to the government
+Generates invoices for customers
+
+Instead of managing all these tasks manually, you use Odoo ERP.
+
+Here, Ravinder Technologies Pvt Ltd becomes your Company in Odoo.
+
+2. Why Does Odoo Need Company Information?
+
+Every business document created in Odoo needs company details.
+
+For example, when you create:
+
+Sales Quotation
+Sales Order
+Customer Invoice
+Purchase Order
+Delivery Slip
+Accounting Report
+
+Odoo automatically prints your company information on these documents.
+
+Example Invoice
+-----------------------------------------
+Ravinder Technologies Pvt Ltd
+No.125, OMR Road
+Chennai - 600096
+Tamil Nadu, India
+
+Invoice No : INV00015
+Customer : ABC Solutions
+Date : 15-07-2026
+
+Amount : ₹45,000
+GST : ₹8,100
+
+Total : ₹53,100
+-----------------------------------------
+
+Without company information, the invoice would not contain your business identity.
+
+3. What Information Does a Company Store?
+
+Every company stores basic business information.
+------------------------------------------------
+
+| Information         | Why it is Required      |
+| ------------------- | ----------------------- |
+| Company Name        | Identifies the business |
+| Logo                | Branding on reports     |
+| Address             | Printed on documents    |
+| Phone               | Customer contact        |
+| Email               | Official communication  |
+| Website             | Business website        |
+| Country             | Regional settings       |
+| Currency            | Financial transactions  |
+| Language            | User interface          |
+| Time Zone           | Correct date and time   |
+| GST Number          | Tax calculation         |
+| Registration Number | Legal identity          |
+
+
+====
+
+4. Company vs Database
+
+This is one of the most important concepts in Odoo.
+
+Many beginners think a Company and a Database are the same, but they are different.
+
+Database
+
+A Database stores all the information in Odoo.
+
+It contains:
+
+Companies
+Users
+Customers
+Products
+Sales
+Purchases
+Inventory
+Accounting
+
+Think of the database as a container.
+
+Company
+
+A Company is one business inside that database.
+
+One database can manage multiple companies.
+
+Example
+Odoo Database
+│
+├── Ravinder Technologies Pvt Ltd
+│     ├── Sales
+│     ├── Purchase
+│     ├── Inventory
+│     └── Accounting
+│
+├── Ravinder Retail Pvt Ltd
+│     ├── Sales
+│     ├── Purchase
+│     └── Inventory
+│
+└── Ravinder Logistics Pvt Ltd
+
+Here:
+
+There is one database.
+Inside it are three different companies.
+Each company has its own business data.
+5. Company Logo
+
+A company logo represents the company's brand.
+
+It appears on:
+
+Quotations
+Sales Orders
+Purchase Orders
+Invoices
+Delivery Orders
+PDF Reports
+
+Example:
+
+      [Company Logo]
+
+Ravinder Technologies Pvt Ltd
+
+A logo makes business documents look professional.
+
+6. Company Address
+
+The address tells customers where the business is located.
+
+Example:
+
+Ravinder Technologies Pvt Ltd
+No.125, OMR Road
+Chennai – 600096
+Tamil Nadu
+India
+
+This address is printed on all official documents.
+
+7. Currency
+
+The company currency determines how money is displayed.
+
+For example:
+
+| Country | Currency |
+| ------- | -------- |
+| India   | INR (₹)  |
+| USA     | USD ($)  |
+| UK      | GBP (£)  |
+| UAE     | AED      |
+
+Example:
+
+Laptop Price
+
+₹75,000
+
+If the company is in the USA, Odoo displays:
+
+$950
+
+===
+
+8. Time Zone
+
+The time zone ensures that all activities are recorded with the correct local time.
+
+For Ravinder Technologies Pvt Ltd, the time zone is:
+
+Asia/Kolkata
+
+This affects:
+
+Sales Order Date
+Invoice Date
+Employee Attendance
+Meeting Schedule
+Activity Logs
+9. Language
+
+The language setting changes the interface and reports.
+
+Supported languages include:
+
+English
+Tamil
+Hindi
+French
+German
+Spanish
+
+Example:
+
+If the language is English, menus appear in English.
+
+If the language is French, the interface changes to French (if installed).
+
+10. Tax Information
+
+Tax information helps Odoo calculate taxes automatically.
+
+Examples:
+
+GST (India)
+VAT (Europe)
+Sales Tax (USA)
+
+When creating an invoice, Odoo automatically calculates the tax based on the company's tax configuration.
+
+11. Benefits of Configuring a Company
+
+A properly configured company helps you:
+
+Create professional business documents.
+Maintain accurate accounting records.
+Calculate taxes correctly.
+Display your company branding.
+Comply with local regulations.
+Manage business operations efficiently.
+Practical Exercise
+
+Create the following company in Odoo:
+-----------------------------------
+
+| Field        | Value                         |
+| ------------ | ----------------------------- |
+| Company Name | Ravinder Technologies Pvt Ltd |
+| Industry     | Information Technology        |
+| Country      | India                         |
+| Currency     | INR (₹)                       |
+| Time Zone    | Asia/Kolkata                  |
+| Language     | English                       |
+
+
+By completing this module, you have learned:
+
+✔ What a Company is in Odoo.
+✔ Why company information is required.
+✔ The difference between a Company and a Database.
+✔ The key details stored for a company.
+✔ How company information is used in invoices, reports, and other business documents.
+
+=====
+
+
 
 
 
