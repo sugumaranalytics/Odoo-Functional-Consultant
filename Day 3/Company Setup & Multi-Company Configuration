@@ -9,7 +9,342 @@ Currency
 Tax Information
 Logo
 Company Settings
+
+===========================================================================================================
+
 Module 2 – Create a New Company
+----------------------------
+
+# Day 3 – Module 2: Company Setup & Configuration (Live Demo)
+
+## 🎯 Objective
+
+In this module, you will learn how to configure a company's basic information in Odoo.
+
+We will configure:
+
+- Company Name
+- Company Logo
+- Address
+- Phone Number
+- Mobile Number
+- Email
+- Website
+- GSTIN
+- Currency
+- Parent Company
+- Branches
+
+---
+
+# Step 1 – Open Companies
+
+Navigation:
+
+Settings
+→ Users & Companies
+→ Companies
+
+Current Screen:
+
+✓ Ravinder Technologies Pvt Ltd
+✓ My Company
+
+Open:
+
+Ravinder Technologies Pvt Ltd
+
+---
+
+# Step 2 – Explain Company Name
+
+Point to:
+
+Company Name
+
+Explain:
+
+"The Company Name is the legal name of the organization.
+
+It appears on:
+
+• Quotations
+• Sales Orders
+• Purchase Orders
+• Customer Invoices
+• Accounting Reports
+
+Example:
+
+Ravinder Technologies Pvt Ltd
+
+This identifies the business in every official document."
+
+---
+
+# Step 3 – Company Logo
+
+Point to the logo.
+
+Explain:
+
+"The company logo represents the company's brand.
+
+Whenever we print a quotation or invoice, this logo appears automatically."
+
+Activity:
+
+Click the logo.
+
+Upload your company logo.
+
+Save.
+
+---
+
+# Step 4 – Contact
+
+Point to:
+
+Contact
+
+Explain:
+
+"This is the contact record linked with the company.
+
+From here, Odoo manages customer communication."
+
+---
+
+# Step 5 – Address
+
+Explain each field.
+
+Street
+
+No.125, OMR Road
+
+City
+
+Chennai
+
+State
+
+Tamil Nadu
+
+ZIP Code
+
+600096
+
+Country
+
+India
+
+Explain:
+
+"This address will automatically appear on quotations, invoices and reports."
+
+---
+
+# Step 6 – Phone
+
+Explain:
+
+"This is the company's official phone number.
+
+Customers can contact the company using this number."
+
+Example:
+
++91 9876543210
+
+---
+
+# Step 7 – Mobile
+
+Explain:
+
+"This is an additional contact number.
+
+Some companies use a mobile number for support."
+
+---
+
+# Step 8 – Email
+
+Explain:
+
+"This is the official company email.
+
+Example:
+
+contact@ravindertech.com
+
+Odoo can use this email for communication."
+
+---
+
+# Step 9 – Website
+
+Explain:
+
+"The website helps customers learn more about the company."
+
+Example:
+
+www.ravindertech.com
+
+---
+
+# Step 10 – GSTIN
+
+Explain:
+
+GSTIN is the company's tax registration number.
+
+It is printed on:
+
+• Customer Invoices
+• Tax Reports
+
+Example:
+
+33ABCDE1234F1Z5
+
+---
+
+# Step 11 – Currency
+
+Current:
+
+INR
+
+Explain:
+
+"The company currency determines how financial values are displayed.
+
+Examples:
+
+₹10,000
+
+₹50,000
+
+₹1,25,000"
+
+---
+
+# Step 12 – Parent Company
+
+Explain:
+
+Parent Company is used when one company owns another company.
+
+Example:
+
+Ravinder Group
+
+├── Ravinder Technologies Pvt Ltd
+
+├── Ravinder Retail Pvt Ltd
+
+└── Ravinder Logistics Pvt Ltd
+
+For our example, leave this field empty.
+
+---
+
+# Step 13 – Branches Tab
+
+Click:
+
+Branches
+
+Explain:
+
+"A company can have multiple branches.
+
+Example:
+
+Chennai Branch
+
+Bangalore Branch
+
+Hyderabad Branch
+
+Each branch belongs to the same company."
+
+For now:
+
+No branches configured.
+
+---
+
+# Step 14 – Save
+
+If you modified any information,
+
+Click:
+
+Save
+
+Otherwise,
+
+No changes are required.
+
+---
+
+# Quick Questions
+
+Q1. Which field stores the legal company name?
+
+Answer:
+Company Name
+
+Q2. Which field stores the company website?
+
+Answer:
+Website
+
+Q3. Which field stores the GST number?
+
+Answer:
+GSTIN
+
+Q4. Which field determines the money format?
+
+Answer:
+Currency
+
+Q5. Where can we configure company branches?
+
+Answer:
+Branches Tab
+
+===========================================================================================================
+
+
+
+# Module 2 Summary
+
+✔ Configured Company Information
+
+✔ Understood Company Logo
+
+✔ Learned Contact Details
+
+✔ Configured Address
+
+✔ Learned GSTIN
+
+✔ Understood Currency
+
+✔ Learned Parent Company
+
+✔ Explored Branches
+
+Module 2 Completed Successfully.
+
+=======
 
 Learn to:
 
