@@ -1,7 +1,11 @@
 Learn how companies are created in Odoo and how multiple companies can be managed from a single Odoo database.
 
 📖 Topics Covered Today
+
+===========================================================================================================
+
 Module 1 – What is a Company in Odoo?
+------------------------------------
 Legal company
 Branch vs Company
 Company Address
@@ -9,6 +13,266 @@ Currency
 Tax Information
 Logo
 Company Settings
+
+----
+# Day 3 – Module 1: What is a Company in Odoo?
+
+## 🎯 Learning Objective
+
+By the end of this module, you will understand:
+
+- What a Company is in Odoo.
+- Why company information is important.
+- The difference between a Company and an Odoo Database.
+- The basic information required to configure a company.
+
+---
+
+# 1. What is a Company?
+
+A **Company** in Odoo represents a **legal business entity** whose day-to-day business operations are managed using the Odoo ERP system.
+
+A company may be:
+
+- Private Limited Company
+- Public Limited Company
+- Sole Proprietorship
+- Partnership Firm
+- Limited Liability Partnership (LLP)
+- Non-Profit Organization
+
+Every company has its own business information, employees, customers, products, accounting records, inventory, and reports.
+
+---
+
+# 2. Example Company
+
+Throughout this course, we will use the following company as our example.
+
+| Field | Value |
+|--------|-------|
+| Company Name | **Ravinder Technologies Pvt Ltd** |
+| Industry | Information Technology |
+| Country | India |
+| Currency | Indian Rupee (INR ₹) |
+| Time Zone | Asia/Kolkata |
+| Language | English |
+
+---
+
+# 3. Why is Company Setup Important?
+
+Company information is used throughout Odoo.
+
+Whenever you create:
+
+- Sales Quotations
+- Sales Orders
+- Purchase Orders
+- Customer Invoices
+- Vendor Bills
+- Delivery Orders
+- Accounting Reports
+
+Odoo automatically prints the company's information on these documents.
+
+Without proper company configuration, business documents will be incomplete.
+
+---
+
+# 4. Information Stored in a Company
+
+Every company stores the following information.
+
+| Information | Purpose |
+|-------------|---------|
+| Company Name | Identifies the business |
+| Company Logo | Printed on reports |
+| Address | Business location |
+| Phone Number | Contact information |
+| Email Address | Official communication |
+| Website | Company website |
+| Country | Regional settings |
+| Currency | Financial transactions |
+| Language | User interface |
+| Time Zone | Date and time management |
+| GST / Tax ID | Tax calculations |
+| Registration Number | Legal identification |
+
+---
+
+# 5. Company vs Database
+
+Many beginners think a Company and a Database are the same, but they are different.
+
+| Odoo Database | Company |
+|---------------|---------|
+| Stores all Odoo data | Represents one legal business |
+| Created during Odoo installation | Created from Settings |
+| Can contain multiple companies | Belongs to one database |
+
+### Example
+
+```text
+Odoo Database
+│
+├── Ravinder Technologies Pvt Ltd
+├── Ravinder Retail Pvt Ltd
+├── Ravinder Manufacturing Pvt Ltd
+└── Ravinder Logistics Pvt Ltd
+```
+
+One Odoo database can manage multiple companies.
+
+---
+
+# 6. Company Logo
+
+The company logo appears on:
+
+- Quotations
+- Sales Orders
+- Purchase Orders
+- Customer Invoices
+- Delivery Orders
+- PDF Reports
+
+A company logo creates a professional business identity.
+
+---
+
+# 7. Company Address
+
+The company address is printed on official business documents.
+
+Example:
+
+```text
+Ravinder Technologies Pvt Ltd
+No. 125, OMR Road
+Chennai – 600096
+Tamil Nadu
+India
+```
+
+---
+
+# 8. Currency
+
+The company currency determines how money is displayed.
+
+Examples:
+
+| Country | Currency |
+|----------|----------|
+| India | INR (₹) |
+| United States | USD ($) |
+| United Kingdom | GBP (£) |
+| UAE | AED |
+
+Example:
+
+```text
+Invoice Total : ₹85,000
+```
+
+---
+
+# 9. Time Zone
+
+The time zone ensures accurate timestamps for:
+
+- Orders
+- Meetings
+- Activities
+- Reports
+- User Login History
+
+For our example company:
+
+```text
+Asia/Kolkata
+```
+
+---
+
+# 10. Language
+
+The language setting controls:
+
+- Menus
+- Buttons
+- Reports
+- Emails
+- Printed Documents
+
+Common languages include:
+
+- English
+- Tamil
+- French
+- German
+- Spanish
+
+---
+
+# 11. Tax Information
+
+Tax information enables Odoo to calculate taxes automatically.
+
+Examples include:
+
+- GST (India)
+- VAT (Europe)
+- Sales Tax (USA)
+
+Tax information appears on:
+
+- Customer Invoices
+- Vendor Bills
+- Tax Reports
+
+---
+
+# 12. Benefits of Company Configuration
+
+A properly configured company provides:
+
+- Professional business documents
+- Accurate accounting
+- Correct tax calculations
+- Consistent company branding
+- Compliance with local regulations
+- Efficient business management
+
+---
+
+# 13. Practical Exercise
+
+Create a sample company with the following information.
+
+| Field | Value |
+|--------|-------|
+| Company Name | Ravinder Technologies Pvt Ltd |
+| Country | India |
+| Currency | INR (₹) |
+| Time Zone | Asia/Kolkata |
+| Language | English |
+| Industry | Information Technology |
+
+---
+
+# Module 1 Summary
+
+✅ Learned what a Company is in Odoo.
+
+✅ Understood why company information is important.
+
+✅ Learned the difference between a Company and an Odoo Database.
+
+✅ Explored the company details required for Odoo configuration.
+
+✅ Ready to continue with **Module 2 – Create a New Company in Odoo**.
 
 ===========================================================================================================
 
