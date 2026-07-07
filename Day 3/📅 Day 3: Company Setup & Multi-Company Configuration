@@ -1,0 +1,177 @@
+Learn how companies are created in Odoo and how multiple companies can be managed from a single Odoo database.
+
+📖 Topics Covered Today
+Module 1 – What is a Company in Odoo?
+Legal company
+Branch vs Company
+Company Address
+Currency
+Tax Information
+Logo
+Company Settings
+Module 2 – Create a New Company
+
+Learn to:
+
+Create a company
+Company details
+Upload Logo
+Currency
+Time Zone
+Country
+Language
+Module 3 – Multi-Company Concept
+
+Understand:
+
+Single Database
+Multiple Companies
+Separate Data
+Shared Users
+Company Switching
+
+Example:
+
+Database
+│
+├── ABC Pvt Ltd
+│     ├ Sales
+│     ├ Purchase
+│     └ Inventory
+│
+├── XYZ Pvt Ltd
+│     ├ Sales
+│     ├ Purchase
+│     └ Inventory
+│
+└── Same User
+      ↓
+Can switch companies
+
+====
+
+Module 4 – Company Switching
+
+Learn:
+
+Current Company
+Allowed Companies
+Active Company
+Switch Company
+Multi-company login
+Module 5 – Company Configuration
+
+Configure:
+
+Company Name
+Address
+Website
+Email
+Phone
+Currency
+Tax ID
+Logo
+Module 6 – Localization
+
+Understand:
+
+Country
+Currency
+Fiscal Localization
+Language
+Time Zone
+
+Examples:
+
+| Country | Currency |
+| ------- | -------- |
+| India   | INR ₹    |
+| USA     | USD $    |
+| UAE     | AED      |
+| UK      | GBP £    |
+
+
+Module 7 – Multi-Company Rules
+
+Understand:
+
+Data isolation
+Shared contacts
+Company-specific products
+Company-specific warehouses
+Company-specific accounting
+Module 8 – Real World Example
+
+Suppose a company owns:
+
+Sugumar Group
+
+├── Sugumar Electronics
+├── Sugumar Furniture
+├── Sugumar Textile
+└── Sugumar Foods
+
+One Odoo database can manage all four companies while keeping each company's financial and operational data separate.
+
+🧪 Practical Exercise
+
+Perform these tasks:
+
+Exercise 1
+
+Create Company A
+
+Sugumar Technologies Pvt Ltd
+Exercise 2
+
+Create Company B
+
+Sugumar Retail Pvt Ltd
+Exercise 3
+
+Assign
+
+Currency
+Country
+Time Zone
+Logo
+Exercise 4
+
+Switch between companies.
+
+Observe:
+
+Company name changes
+Dashboard changes
+Settings change
+💻 Navigation Practice
+
+Practice navigating to:
+
+Settings
+
+↓
+
+Companies
+
+↓
+
+Manage Companies
+
+↓
+
+Create
+📚 Key Concepts to Remember
+One database can contain multiple companies.
+Users can access one or more companies based on permissions.
+Each company maintains separate accounting and business data.
+Company-specific settings help localize operations for different countries or regions.
+
+====
+
+
+
+
+
+
+
