@@ -1,86 +1,24 @@
-# Day 3 Assignment – Company Setup & Multi-Company Configuration
+# Day 3 Assignment
 
-## Student Name
-
-_____________________________
-
-## Date
-
-_____________________________
+## Topic
+Company Setup & Multi-Company Configuration
 
 ---
 
 # Objective
 
-The objective of this assignment is to practice creating companies, configuring company information, enabling multi-company access, and verifying company-wise data separation in Odoo.
+Practice creating companies, configuring company information, and understanding Multi-Company functionality in Odoo.
 
 ---
 
-# Part A – Theory (20 Marks)
-
-### Q1. What is a Company in Odoo?
-
-Answer:
-
-_________________________________________________________
-
-_________________________________________________________
-
----
-
-### Q2. What is Multi-Company in Odoo?
-
-Answer:
-
-_________________________________________________________
-
-_________________________________________________________
-
----
-
-### Q3. What is the difference between Default Company and Allowed Companies?
-
-| Default Company | Allowed Companies |
-|-----------------|-------------------|
-|                 |                   |
-|                 |                   |
-|                 |                   |
-
----
-
-### Q4. Where is Company information used?
-
-Tick the correct answers.
-
-- [ ] Quotations
-- [ ] Purchase Orders
-- [ ] Customer Invoices
-- [ ] Reports
-- [ ] Inventory Documents
-
----
-
-### Q5. What is the purpose of GSTIN?
-
-_________________________________________________________
-
-_________________________________________________________
-
----
-
-# Part B – Practical (60 Marks)
-
-## Task 1 – Create Companies (15 Marks)
+# Task 1 – Create Companies
 
 Create the following companies.
 
 ### Company 1
 
-Company Name
-
+Company Name:
 Ravinder Technologies Pvt Ltd
-
-Status
 
 ☐ Completed
 
@@ -88,218 +26,253 @@ Status
 
 ### Company 2
 
-Company Name
-
+Company Name:
 Ravinder Retail Pvt Ltd
 
-Status
+☐ Completed
+
+---
+
+# Task 2 – Configure Company Information
+
+Verify the following details for both companies.
+
+☐ Company Name
+
+☐ Address
+
+☐ Phone Number
+
+☐ Email
+
+☐ Website
+
+☐ GSTIN
+
+☐ Currency
 
 ☐ Completed
 
 ---
 
-## Task 2 – Configure Company Information (10 Marks)
+# Task 3 – Configure Multi-Company
 
-Fill the following details for both companies.
-
-- Company Name
-- Address
-- Phone Number
-- Email
-- Website
-- GSTIN
-- Currency
-
-Status
-
-☐ Completed
-
----
-
-## Task 3 – Configure Administrator (10 Marks)
-
-Navigate to
+Navigate to:
 
 Settings
+→ Users & Companies
+→ Users
+→ Administrator
 
-↓
+Verify:
 
-Users & Companies
+☐ Default Company
 
-↓
+☐ Allowed Companies
 
-Users
+Ensure Administrator has access to:
 
-↓
+☐ My Company
 
-Administrator
+☐ Ravinder Technologies Pvt Ltd
 
-Verify
-
-Default Company
-
-Allowed Companies
-
-Tick
-
-- My Company
-- Ravinder Technologies Pvt Ltd
-- Ravinder Retail Pvt Ltd
-
-Status
+☐ Ravinder Retail Pvt Ltd
 
 ☐ Completed
 
 ---
 
-## Task 4 – Switch Companies (10 Marks)
+# Task 4 – Switch Companies
 
-Switch between
+Switch between:
 
-- My Company
-- Ravinder Technologies Pvt Ltd
-- Ravinder Retail Pvt Ltd
+☐ My Company
 
-Observe the company name in the top-right corner.
+☐ Ravinder Technologies Pvt Ltd
 
-Status
+☐ Ravinder Retail Pvt Ltd
 
-☐ Completed
-
----
-
-## Task 5 – Create Quotations (15 Marks)
-
-Create the following quotations.
-
-| Quotation | Company |
-|-----------|---------|
-| S00001 | Ravinder Technologies Pvt Ltd |
-| S00002 | Ravinder Technologies Pvt Ltd |
-| S00003 | Ravinder Retail Pvt Ltd |
-
-Status
+Verify the active company changes in the top-right corner.
 
 ☐ Completed
 
 ---
 
-# Part C – Verification (20 Marks)
+# Task 5 – Create Quotations
 
-Apply Company Filter.
+### Quotation 1
 
-### Filter 1
+Company:
+Ravinder Technologies Pvt Ltd
 
-Company = Ravinder Technologies Pvt Ltd
+Customer:
+ABC Technologies
 
-Expected Result
+Product:
+Monitor
 
-S00001
-
-S00002
-
-Status
-
-☐ Verified
+☐ Completed
 
 ---
 
-### Filter 2
+### Quotation 2
 
-Company = Ravinder Retail Pvt Ltd
+Company:
+Ravinder Retail Pvt Ltd
 
-Expected Result
+Customer:
+Savitha Industries
 
-S00003
+Product:
+Monitor
 
-Status
-
-☐ Verified
-
----
-
-# Viva Questions
-
-### 1. What is a Company in Odoo?
-
-_________________________________________________________
+☐ Completed
 
 ---
 
-### 2. Can one Odoo database manage multiple companies?
+# Task 6 – Verify Company-wise Data
 
-_________________________________________________________
+Open:
 
----
+Sales
+→ Orders
+→ Quotations
 
-### 3. What is Multi-Company?
+Apply a Company filter.
 
-_________________________________________________________
+Verify:
 
----
+☐ Ravinder Technologies Pvt Ltd displays only its quotations.
 
-### 4. What is the purpose of Allowed Companies?
+☐ Ravinder Retail Pvt Ltd displays only its quotations.
 
-_________________________________________________________
-
----
-
-### 5. What is the purpose of Default Company?
-
-_________________________________________________________
+☐ Completed
 
 ---
 
-### 6. Can one user work in multiple companies?
+# Self-Check Questions with Answers
 
-_________________________________________________________
+## 1. What is a Company in Odoo?
 
----
+**Answer:**
 
-### 7. What happens when we switch the active company?
-
-_________________________________________________________
+A Company in Odoo represents a legal business entity. All business operations such as Sales, Purchase, Inventory, Accounting, HR, and Reports belong to a specific company.
 
 ---
 
-### 8. Why does the Company column appear in the Quotation list?
+## 2. What is Multi-Company?
 
-_________________________________________________________
+**Answer:**
 
----
-
-# Submission Checklist
-
-- [ ] Created Ravinder Technologies Pvt Ltd
-- [ ] Created Ravinder Retail Pvt Ltd
-- [ ] Configured Company Information
-- [ ] Configured Multi-Company Access
-- [ ] Switched Companies
-- [ ] Created Quotations
-- [ ] Verified Company-wise Data
-- [ ] Answered Viva Questions
+Multi-Company is an Odoo feature that allows multiple legal companies to work within a single Odoo database while keeping each company's business data separate.
 
 ---
 
-# Marks Distribution
+## 3. What is the difference between Default Company and Allowed Companies?
 
-| Section | Marks |
-|----------|------:|
-| Theory | 20 |
-| Practical | 60 |
-| Viva | 20 |
-| **Total** | **100** |
+**Answer:**
+
+- **Default Company**: The company that becomes active when the user logs in.
+- **Allowed Companies**: The list of companies that the user is permitted to access and switch between.
+
+---
+
+## 4. Can one user access multiple companies?
+
+**Answer:**
+
+Yes. A user can access multiple companies if those companies are added under **Allowed Companies**.
+
+---
+
+## 5. Why do we switch companies?
+
+**Answer:**
+
+We switch companies to work on another company's business data, such as quotations, sales orders, inventory, or accounting, without logging out.
+
+---
+
+## 6. What happens when we create a quotation after switching the company?
+
+**Answer:**
+
+The new quotation is automatically created for the currently active company.
+
+---
+
+## 7. Why does the Quotation list show a Company column?
+
+**Answer:**
+
+The Company column identifies which company owns each quotation. This is especially useful in a Multi-Company environment.
+
+---
+
+## 8. Can one Odoo database manage multiple companies?
+
+**Answer:**
+
+Yes. One Odoo database can manage multiple companies while keeping each company's records separate.
+
+---
+
+## 9. Where do we configure the companies a user can access?
+
+**Answer:**
+
+Settings → Users & Companies → Users → Administrator (or another user) → **Allowed Companies**.
+
+---
+
+## 10. Why is Multi-Company useful?
+
+**Answer:**
+
+It allows organizations with multiple companies to use one Odoo database while maintaining separate data for each company, reducing maintenance and simplifying administration.
+
+---
+
+# Day 3 Completion Checklist
+
+☐ Created Ravinder Technologies Pvt Ltd
+
+☐ Created Ravinder Retail Pvt Ltd
+
+☐ Configured Company Information
+
+☐ Configured Multi-Company Access
+
+☐ Switched Between Companies
+
+☐ Created Quotations
+
+☐ Verified Company-wise Data
+
+☐ Completed Self-Check Questions
 
 ---
 
 # Learning Outcome
 
-After completing this assignment, the student will be able to:
+After completing Day 3, I can:
 
-- Understand the Company concept in Odoo.
-- Configure company master data.
-- Create and manage multiple companies.
-- Configure user access for multiple companies.
-- Switch between companies.
-- Verify company-wise data separation using quotations.
-- Explain Multi-Company functionality in Odoo confidently.
+✅ Create a Company in Odoo.
+
+✅ Configure Company Information.
+
+✅ Understand the Multi-Company concept.
+
+✅ Configure Default Company and Allowed Companies.
+
+✅ Switch between companies.
+
+✅ Create quotations for different companies.
+
+✅ Verify company-wise data using filters.
+
+---
+
+# Result
+
+🎉 **Day 3 Completed Successfully**
