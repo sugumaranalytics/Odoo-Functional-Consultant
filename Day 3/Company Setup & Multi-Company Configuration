@@ -355,7 +355,316 @@ Currency
 Time Zone
 Country
 Language
+
+=============================================================================================================
+
 Module 3 – Multi-Company Concept
+--------------------------------
+
+# 📅 Day 3 – Module 3: Multi-Company Configuration
+
+## 🎯 Learning Objective
+
+By the end of this module, you will learn:
+
+- What is Multi-Company?
+- Why businesses use Multi-Company
+- How to create multiple companies
+- How to allow users to access multiple companies
+- How to switch between companies
+
+---
+
+# Introduction
+
+Many organizations own more than one company.
+
+For example:
+
+Ravinder Group may own:
+
+• Ravinder Technologies Pvt Ltd
+• Ravinder Retail Pvt Ltd
+• Ravinder Logistics Pvt Ltd
+
+Instead of installing three separate Odoo systems, we can manage all companies in **one Odoo database**.
+
+This feature is called **Multi-Company**.
+
+---
+
+# Live Demo 1 – Current Companies
+
+Navigation:
+
+Settings
+→ Users & Companies
+→ Companies
+
+Current Companies:
+
+✓ My Company
+
+✓ Ravinder Technologies Pvt Ltd
+
+Explain:
+
+"We currently have two companies in our database."
+
+---
+
+# Live Demo 2 – Create Another Company
+
+Click:
+
+New
+
+Create another company.
+
+Example:
+
+Company Name
+
+Ravinder Retail Pvt Ltd
+
+Address
+
+No.45, Anna Nagar
+
+City
+
+Chennai
+
+Country
+
+India
+
+Phone
+
++91 9876500000
+
+Email
+
+contact@ravinderretail.com
+
+Website
+
+www.ravinderretail.com
+
+Currency
+
+INR
+
+Save.
+
+Explain:
+
+"Now our database contains three companies."
+
+---
+
+# Live Demo 3 – Verify Companies
+
+Return to:
+
+Settings
+→ Users & Companies
+→ Companies
+
+You should now see:
+
+✓ My Company
+
+✓ Ravinder Technologies Pvt Ltd
+
+✓ Ravinder Retail Pvt Ltd
+
+Explain:
+
+"All three companies are stored inside one Odoo database."
+
+---
+
+# Live Demo 4 – Assign User to Multiple Companies
+
+Navigation:
+
+Settings
+→ Users & Companies
+→ Users
+
+Open:
+
+Administrator
+
+Locate:
+
+Allowed Companies
+
+(Currently one or two companies may already be selected.)
+
+Select:
+
+✓ My Company
+
+✓ Ravinder Technologies Pvt Ltd
+
+✓ Ravinder Retail Pvt Ltd
+
+Save.
+
+Explain:
+
+"This user can now access all selected companies."
+
+---
+
+# Live Demo 5 – Switch Company
+
+Look at the top-right corner.
+
+Click the company name:
+
+My Company
+
+A list appears.
+
+Choose:
+
+Ravinder Technologies Pvt Ltd
+
+Then choose:
+
+Ravinder Retail Pvt Ltd
+
+Explain:
+
+"Odoo changes the active company without requiring a new login."
+
+---
+
+# What Changes After Switching?
+
+Explain:
+
+When we switch companies:
+
+✔ Sales Orders belong to the selected company.
+
+✔ Purchase Orders belong to the selected company.
+
+✔ Inventory belongs to the selected company.
+
+✔ Accounting belongs to the selected company.
+
+Each company keeps its own business data.
+
+---
+
+# Real-World Example
+
+Ravinder Group
+
+├── Ravinder Technologies Pvt Ltd
+│     Software Development
+│
+├── Ravinder Retail Pvt Ltd
+│     Retail Business
+│
+└── Ravinder Logistics Pvt Ltd
+      Transport Services
+
+All companies use the same Odoo database.
+
+Each company has separate:
+
+• Customers
+
+• Products
+
+• Accounting
+
+• Reports
+
+---
+
+# Benefits of Multi-Company
+
+✔ One Odoo Database
+
+✔ Separate Company Data
+
+✔ Easy Company Switching
+
+✔ Shared Users
+
+✔ Reduced Maintenance
+
+✔ Centralized Administration
+
+---
+
+# Practical Exercise
+
+Task 1
+
+Create:
+
+Ravinder Retail Pvt Ltd
+
+Task 2
+
+Assign Administrator access to:
+
+✓ My Company
+
+✓ Ravinder Technologies Pvt Ltd
+
+✓ Ravinder Retail Pvt Ltd
+
+Task 3
+
+Switch between companies.
+
+Observe:
+
+• Dashboard
+
+• Company Name
+
+• Company Data
+
+---
+
+# Interview Question
+
+Question:
+
+Can one Odoo database manage multiple companies?
+
+Answer:
+
+Yes.
+
+Odoo supports Multi-Company functionality, allowing multiple legal companies to operate within a single database while keeping each company's data separate.
+
+---
+
+# Module 3 Summary
+
+✔ Learned Multi-Company Concept
+
+✔ Created Multiple Companies
+
+✔ Assigned Multiple Companies to a User
+
+✔ Switched Between Companies
+
+✔ Understood Company-Specific Data
+
+Module 3 Completed Successfully.
+
+=============================================================================================================
 
 Understand:
 
