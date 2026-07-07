@@ -1,0 +1,202 @@
+What is Kanban View?
+
+Definition:
+
+Kanban View displays records as visual cards. It helps users quickly see and manage records without opening each one.
+
+In your case, each card represents a Sales Quotation.
+
+Screen Explanation
+1. Module Name
+
+At the top left:
+
+Sales
+
+This indicates you are working in the Sales module.
+
+2. Menu
+Orders
+To Invoice
+Products
+Reporting
+Configuration
+
+These are the main menus of the Sales module.
+
+Orders → Quotations and Sales Orders.
+To Invoice → Orders ready for invoicing.
+Products → Product master data.
+Reporting → Sales reports and analytics.
+Configuration → Sales settings.
+3. Quotation Cards (Kanban Cards)
+
+Each rectangle is a Kanban Card.
+
+You have two cards.
+
+Card 1
+XYZ Retail
+
+This is the Customer Name.
+
+Below that:
+
+₹15,000.00
+
+This is the Quotation Total Amount.
+
+Next line:
+
+S00002
+
+This is the Quotation Number.
+
+Every quotation has a unique number.
+
+Next:
+
+07/07/2026 12:50:33
+
+This is the Creation Date & Time.
+
+Blue badge:
+
+Quotation
+
+This indicates the current status.
+
+Possible statuses include:
+
+Quotation
+Quotation Sent
+Sales Order
+Cancelled
+Card 2
+
+Customer:
+
+ABC Technologies
+
+Quotation Number:
+
+S00001
+
+Amount:
+
+₹2,000.00
+
+Status:
+
+Quotation
+4. Company Filter
+
+At the top search bar:
+
+Company is
+Ravinder Technologies Pvt Ltd
+
+This filter shows only quotations belonging to Ravinder Technologies Pvt Ltd.
+
+If you change it to Ravinder Retail Pvt Ltd, you'll see only that company's quotations.
+
+5. View Icons (Top Right)
+
+You can switch between different ways of displaying the same data.
+
+List View
+
+Displays data in rows and columns.
+
+Example:
+
+Quotation No | Customer | Amount
+
+Best for working with many records.
+
+Kanban View (Current)
+
+Displays records as cards.
+
+Best for a quick visual overview.
+
+Calendar View
+
+Shows quotations by date.
+
+Useful for tracking due dates.
+
+Pivot View
+
+Summarizes data.
+
+Example:
+
+Total Sales
+Sales by Customer
+Sales by Month
+Graph View
+
+Displays charts.
+
+Examples:
+
+Bar Chart
+Pie Chart
+Line Chart
+
+Useful for presentations and analysis.
+
+Activity View
+
+Shows scheduled activities.
+
+Examples:
+
+Calls
+Meetings
+Follow-ups
+
+Helps users track pending tasks.
+
+Advantages of Kanban View
+Easy to understand.
+Visual representation.
+Quick access to records.
+Open a record with one click.
+Good for sales teams.
+Real-World Example
+
+Imagine a sales manager.
+
+Instead of reading a table with 100 quotations, they can quickly look at the cards and immediately identify:
+
+Customer name
+Amount
+Status
+Creation date
+
+This makes it easier to monitor ongoing sales work.
+
+Interview Question
+What is Kanban View in Odoo?
+
+Answer:
+
+Kanban View is a visual card-based view used to display records. Each card represents one record, allowing users to quickly view important information and open or manage records easily.
+
+Quick Revision
+
+
+| View              | Purpose                                  |
+| ----------------- | ---------------------------------------- |
+| **List View**     | Shows records in rows and columns.       |
+| **Kanban View**   | Shows records as visual cards.           |
+| **Calendar View** | Displays records by date.                |
+| **Pivot View**    | Summarizes data for analysis.            |
+| **Graph View**    | Displays charts and graphs.              |
+| **Activity View** | Shows pending activities and follow-ups. |
+
+
+====
+
