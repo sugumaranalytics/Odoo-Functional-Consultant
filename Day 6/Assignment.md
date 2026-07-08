@@ -9,7 +9,7 @@ Understand the CRM module, create opportunities, manage the sales pipeline, sche
 
 ---
 
-# Part A – Theory (20 Marks)
+
 
 ## Q1. What is CRM?
 
