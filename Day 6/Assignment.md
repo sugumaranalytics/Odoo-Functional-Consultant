@@ -127,7 +127,7 @@ Tags help categorize opportunities for easy searching, filtering, and reporting.
 
 ---
 
-# Part B – Practical Assignment (50 Marks)
+
 
 ## Exercise 1
 
@@ -382,7 +382,7 @@ Won
 
 ---
 
-# Part D – Interview Questions (10 Marks)
+
 
 ## 1. What is CRM?
 
