@@ -1,0 +1,45 @@
+What is CRM?
+
+CRM (Customer Relationship Management) is used to manage:
+
+👥 Customers
+📞 Leads (potential customers)
+💼 Opportunities (customers interested in buying)
+📧 Follow-ups
+💰 Sales Pipeline
+📊 Sales Forecast
+Real-world Example
+
+Suppose you own an AI business.
+
+| Customer                   | Requirement      | CRM Stage |
+| -------------------------- | ---------------- | --------- |
+| ABC Technologies           | Wants AI Website | Lead      |
+| They requested a quotation | Opportunity      |           |
+| They accepted quotation    | Won              |           |
+| They rejected              | Lost             |           |
+
+
+===
+CRM helps you remember:
+
+Who contacted you
+What they need
+When to call them
+Whether they purchased
+
+========
+The stages are:
+
+New → New inquiry received
+Qualified → Customer is interested
+Proposition → Quotation sent
+Won → Customer purchased
+Lost (hidden on the right) → Customer did not purchase
+
+Each card is called an Opportunity.
+
+=====
+
+
+
