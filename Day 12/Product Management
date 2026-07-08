@@ -1,0 +1,63 @@
+Learning Objectives
+
+By the end of Day 12, you will understand:
+
+What is Product Management?
+Product Types
+Product Categories
+Creating Products
+Sales Price
+Cost Price
+Units of Measure (UoM)
+Product Variants
+Product Attributes
+Taxes
+Product Images
+Internal Reference
+Barcode
+Product Lifecycle
+Best Practices
+What is Product Management?
+
+Product Management in Odoo is the process of creating, organizing, and maintaining all the products and services that a company buys or sells.
+
+It helps businesses:
+
+Maintain product information
+Set selling prices
+Track inventory (for storable products)
+Apply taxes
+Categorize products
+Manage product variants
+Real World Example
+
+ABC Technologies sells:
+
+Computer
+Laptop
+Printer
+Monitor
+Keyboard
+Mouse
+Odoo ERP Implementation (Service)
+
+All these items are managed through the Products module.
+
+Product Workflow
+Create Product
+       ↓
+Assign Category
+       ↓
+Set Product Type
+       ↓
+Set Sales Price
+       ↓
+Configure Taxes
+       ↓
+Save Product
+       ↓
+Use in Quotations
+       ↓
+Sales Order
+       ↓
+Invoice
