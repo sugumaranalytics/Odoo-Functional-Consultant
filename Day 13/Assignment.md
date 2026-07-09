@@ -1,4 +1,4 @@
-# Day 13 – Assignment
+# Day 13 – Assignment (With Answers)
 
 **Course:** Odoo Functional Consultant (60 Days)  
 **Day:** 13  
@@ -10,13 +10,15 @@
 
 # Objective
 
-Practice the complete inventory workflow by creating products, purchasing stock, receiving products, selling products, delivering them, and verifying inventory changes.
+Perform the complete Purchase → Inventory → Sales workflow and understand how stock moves in Odoo.
 
 ---
 
 # Assignment 1 – Create a New Product
 
-Create a new product with the following details.
+### Task
+
+Create a product with the following details.
 
 | Field | Value |
 |--------|-------|
@@ -28,15 +30,17 @@ Create a new product with the following details.
 | Sales Price | ₹1,500 |
 | Cost | ₹1,000 |
 
-Expected Result
+### Answer
 
-- Product created successfully.
+Product **Keyboard** created successfully with **Track Inventory** enabled.
 
 ---
 
 # Assignment 2 – Configure Vendor
 
-Vendor Details
+### Task
+
+Configure vendor information.
 
 | Field | Value |
 |--------|-------|
@@ -44,39 +48,38 @@ Vendor Details
 | Purchase Price | ₹1,000 |
 | Minimum Quantity | 1 |
 
-Expected Result
+### Answer
 
-Vendor information saved successfully.
+Vendor information saved successfully under the Purchase tab.
 
 ---
 
 # Assignment 3 – Create Purchase Order
 
+### Task
+
 Navigation
 
 Purchase → Orders → Requests for Quotation
 
-Purchase Details
+| Vendor | Product | Qty | Unit Price |
+|---------|---------|----:|-----------:|
+| Kumar Industries | Keyboard | 20 | ₹1,000 |
 
-| Field | Value |
-|--------|-------|
-| Vendor | Kumar Industries |
-| Product | Keyboard |
-| Quantity | 20 |
-| Unit Price | ₹1,000 |
-
-Tasks
+Click
 
 - Save
 - Confirm Order
 
-Expected Result
+### Answer
 
-Purchase Order created successfully.
+Purchase Order created and confirmed successfully.
 
 ---
 
 # Assignment 4 – Receive Products
+
+### Task
 
 Open the Purchase Order.
 
@@ -87,16 +90,17 @@ Receive Products
 Verify
 
 - Product = Keyboard
-- Demand = 20
 - Quantity = 20
 
 Click
 
 Validate
 
-Expected Result
+### Answer
 
-Receipt status becomes **Done**.
+Receipt status changed to **Done**.
+
+Inventory increased from **0 → 20**.
 
 ---
 
@@ -106,15 +110,15 @@ Navigation
 
 Inventory → Products → Keyboard
 
-Verify
+### Expected Result
 
-| Smart Button | Expected Value |
-|--------------|----------------|
+| Smart Button | Value |
+|--------------|------:|
 | On Hand | 20 |
 | Forecasted | 20 |
 | Purchased | 20 |
 
-Expected Result
+### Answer
 
 Inventory updated successfully.
 
@@ -138,14 +142,16 @@ Quantity
 
 5
 
-Tasks
+Click
 
 - Save
 - Confirm
 
-Expected Result
+### Answer
 
-Sales Order confirmed.
+Sales Order created successfully.
+
+Delivery Order generated automatically.
 
 ---
 
@@ -157,18 +163,18 @@ Delivery
 
 Verify
 
-| Field | Value |
-|--------|-------|
-| Product | Keyboard |
-| Quantity | 5 |
+- Product = Keyboard
+- Quantity = 5
 
 Click
 
 Validate
 
-Expected Result
+### Answer
 
-Delivery status becomes **Done**.
+Delivery status changed to **Done**.
+
+Inventory reduced by 5 units.
 
 ---
 
@@ -178,16 +184,16 @@ Navigation
 
 Inventory → Products → Keyboard
 
-Verify
+### Result
 
-| Before Delivery | After Delivery |
-|-----------------|----------------|
-| On Hand = 20 | On Hand = 15 |
-| Forecasted = 20 | Forecasted = 15 |
-| Purchased = 20 | Purchased = 20 |
-| Sold = 5 | Sold = 5 |
+| Before | After |
+|---------|------:|
+| On Hand | 20 → 15 |
+| Forecasted | 20 → 15 |
+| Purchased | 20 |
+| Sold | 5 |
 
-Expected Result
+### Answer
 
 Inventory reduced correctly.
 
@@ -195,63 +201,79 @@ Inventory reduced correctly.
 
 # Assignment 9 – Observe Smart Buttons
 
-Open the Keyboard product and record the following values.
+### Question
+
+Record the smart button values.
+
+### Answer
 
 | Smart Button | Value |
-|--------------|-------|
-| On Hand | ______ |
-| Forecasted | ______ |
-| Purchased | ______ |
-| Sold | ______ |
-| Incoming | ______ |
-| Outgoing | ______ |
+|--------------|------:|
+| On Hand | 15 |
+| Forecasted | 15 |
+| Purchased | 20 |
+| Sold | 5 |
+| Incoming | 0 |
+| Outgoing | 0 |
 
 ---
 
-# Assignment 10 – Practical Questions
+# Assignment 10 – Interview Questions
 
 ### 1. What happens when a Purchase Receipt is validated?
 
-Answer:
+### Answer
 
-_____________________________________________________
+The purchased products are added to warehouse inventory, and the **On Hand** quantity increases.
 
 ---
 
 ### 2. When is inventory reduced?
 
-Answer:
+### Answer
 
-_____________________________________________________
+Inventory is reduced only after the **Delivery Order** is validated.
 
 ---
 
 ### 3. What is the difference between On Hand and Forecasted Quantity?
 
-Answer:
+### Answer
 
-_____________________________________________________
+**On Hand**
+
+The actual physical stock available in the warehouse.
+
+**Forecasted**
+
+The expected stock after considering incoming and outgoing stock movements.
 
 ---
 
 ### 4. Why should Track Inventory be enabled before using a product?
 
-Answer:
+### Answer
 
-_____________________________________________________
+Because Odoo creates stock movements only for products with **Track Inventory** enabled. Without it, inventory quantities will not increase or decrease.
 
 ---
 
 ### 5. Which document creates stock movement?
+
+Options
 
 - Purchase Order
 - Sales Order
 - Delivery Order
 - Invoice
 
-Answer:
+### Answer
 
-_____________________________________________________
+**Purchase Receipt** increases stock.
+
+**Delivery Order** decreases stock.
+
+Purchase Orders, Sales Orders, and Invoices alone do **not** change inventory.
 
 ---
 
@@ -261,20 +283,17 @@ Create another product.
 
 Example
 
-- Mouse
-- Printer
-- Laptop
-- CPU
+Mouse
 
-Perform the complete workflow.
+Purchase
 
-- Purchase 15 units
-- Receive stock
-- Sell 3 units
-- Deliver products
-- Verify inventory
+15 Units
 
-Record the final stock.
+Sell
+
+3 Units
+
+### Answer
 
 | Purchased | Sold | Final Stock |
 |-----------:|-----:|------------:|
@@ -282,42 +301,100 @@ Record the final stock.
 
 ---
 
-# Expected Learning Outcomes
+# Practical Scenario
 
-After completing this assignment, you should be able to:
+A computer shop purchases
 
-- Create inventory-tracked products.
-- Configure vendors.
-- Create Purchase Orders.
-- Receive products into inventory.
-- Create Sales Orders.
-- Validate Delivery Orders.
-- Verify inventory movement.
-- Understand stock increases and decreases.
-- Interpret inventory smart buttons.
-- Execute an end-to-end Purchase → Inventory → Sales workflow.
+20 Keyboards.
 
----
+Inventory becomes
 
-# Assignment Status
+20 Units.
 
-- [ ] Product Created
-- [ ] Vendor Configured
-- [ ] Purchase Order Created
-- [ ] Products Received
-- [ ] Inventory Verified
-- [ ] Sales Order Created
-- [ ] Delivery Validated
-- [ ] Stock Reduced
-- [ ] Smart Buttons Verified
-- [ ] Assignment Completed
+A customer purchases
+
+5 Keyboards.
+
+After validating the Delivery Order,
+
+Inventory becomes
+
+15 Units.
+
+This is how businesses track inventory in Odoo.
 
 ---
 
-# Final Expected Result
+# Summary Questions
+
+### Q1. Which operation increases stock?
+
+**Answer**
+
+Purchase Receipt.
+
+---
+
+### Q2. Which operation decreases stock?
+
+**Answer**
+
+Delivery Order.
+
+---
+
+### Q3. Can a Sales Order reduce inventory?
+
+**Answer**
+
+No.
+
+Inventory is reduced only after the Delivery Order is validated.
+
+---
+
+### Q4. Why is the Delivery Order important?
+
+**Answer**
+
+It confirms that products have physically left the warehouse and updates inventory.
+
+---
+
+### Q5. Which smart button shows the current stock?
+
+**Answer**
+
+**On Hand**.
+
+---
+
+### Q6. What did you learn in Day 13?
+
+**Answer**
+
+- Product Creation
+- Inventory Tracking
+- Vendor Configuration
+- Purchase Orders
+- Purchase Receipts
+- Warehouse Stock Management
+- Sales Orders
+- Delivery Orders
+- Inventory Validation
+- Stock Movement
+- Smart Buttons
+- Complete Purchase → Inventory → Sales Workflow
+
+---
+
+# Final Workflow
 
 ```text
-Product Created
+Create Product
+       │
+       ▼
+Configure Vendor
        │
        ▼
 Purchase Order
@@ -326,19 +403,39 @@ Purchase Order
 Receive Products
        │
        ▼
-Stock = 20
+Warehouse Stock = 20
        │
        ▼
 Sales Order
        │
        ▼
-Delivery
+Delivery Order
        │
        ▼
-Stock = 15
+Validate Delivery
+       │
+       ▼
+Warehouse Stock = 15
 ```
 
 ---
+
+# Assignment Checklist
+
+- ✅ Product Created
+- ✅ Vendor Configured
+- ✅ Purchase Order Created
+- ✅ Products Received
+- ✅ Inventory Updated
+- ✅ Sales Order Created
+- ✅ Delivery Order Validated
+- ✅ Inventory Reduced
+- ✅ Smart Buttons Verified
+- ✅ End-to-End Workflow Completed
+
+---
+
+# Day 13 Completed Successfully 🎉
 
 **Prepared by:** Sugumar Ranganathan  
 **Email:** contact.sugumarai@gmail.com
