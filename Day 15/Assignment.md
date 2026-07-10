@@ -490,8 +490,3 @@ During this assignment, I learned the complete Inventory Basics workflow in Odoo
 
 ---
 
-# Assignment Status
-
-**Day 15 Assignment:** ✅ Completed
-
-**Score:** ______ /100
