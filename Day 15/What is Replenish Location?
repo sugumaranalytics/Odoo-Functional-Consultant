@@ -1,0 +1,27 @@
+A Replenish Location is a storage location that can be automatically refilled when its stock becomes low or empty.
+
+In simple words:
+
+It tells Odoo that this location should receive stock from another location or from purchasing whenever it needs more products.
+
+Real-World Example
+
+Imagine a supermarket.
+
+Warehouse (Main Stock)
+        │
+        ▼
+Store Shelf
+
+The Store Shelf has only 10 bottles of water.
+
+Customers buy them throughout the day.
+
+When only 2 bottles remain, staff bring more bottles from the Warehouse.
+
+Here:
+
+Warehouse = Main Stock
+Shelf = Replenish Location
+
+The shelf is replenished from the warehouse.
