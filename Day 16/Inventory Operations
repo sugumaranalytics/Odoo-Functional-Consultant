@@ -1,0 +1,80 @@
+Day 16 Learning Objectives
+
+By the end of Day 16, you will be able to:
+
+Understand Inventory Operations
+Receive Products
+Deliver Products
+Perform Internal Transfers
+Manage Inventory Adjustments
+Understand Stock Moves
+Read Inventory Reports
+Understand Inventory Valuation
+Perform complete warehouse operations
+What are Inventory Operations?
+
+Inventory Operations are the daily warehouse activities performed after products have been configured.
+
+Every business performs these operations every day.
+
+Examples:
+
+Receiving products
+Delivering products
+Moving products between locations
+Adjusting stock
+Counting inventory
+
+
+===
+
+Real Business Example
+
+ABC Technologies has:
+
+Wireless Mouse
+
+On Hand
+
+100 Units
+
+Daily activities:
+
+Morning
+
+Receive
+
+50 Mouse
+
+Afternoon
+
+Deliver
+
+20 Mouse
+
+Evening
+
+Transfer
+
+10 Mouse
+
+Warehouse stock changes throughout the day.
+
+Inventory Operation Types
+
+Go to
+
+Inventory
+
+↓
+
+Operations
+
+You will see:
+
+Receipts
+Delivery Orders
+Internal Transfers
+Inventory Adjustments
+Scrap
+Physical Inventory (depending on version)
