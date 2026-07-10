@@ -1,0 +1,23 @@
+What is a Receipt in Odoo?
+
+Answer:
+
+A Receipt is an inventory operation used to record incoming products from a vendor into a warehouse. When validated, it increases the stock quantity in the destination location.
+
+Q2. What is the Source Location for Receipts?
+
+Answer:
+
+Partners/Vendors
+
+Q3. What is the Destination Location?
+
+Answer:
+
+WH/Stock
+
+Q4. What does "Create Backorder = Ask" mean?
+
+Answer:
+
+If only part of the ordered quantity is received, Odoo asks whether to create a backorder for the remaining quantity.
